@@ -154,7 +154,7 @@ nav ul li a:focus {
         background-image: url('img/evgeni-tcherkasski-Gyp9-tIZxiw-unsplash.jpg');
     }
 
-    ul {
+   nav ul {
         position: fixed;
         width: 100%;
         height: 100vh;
