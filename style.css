@@ -443,7 +443,7 @@ align-items: center;
     margin-left: 2rem;
     font-size: 3rem;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 .img img{
     width: 40rem;
@@ -454,7 +454,7 @@ align-items: center;
 
 .info-profile p{
     /* width: 80rem; */
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     padding: 1rem 2rem;
     text-justify: distribute;
@@ -477,198 +477,189 @@ align-items: center;
 }
 /* profile section end */
 
-/* second website  */
-.main-body-second{
-    /* font-size: 20rem; */
-    margin-top: 5rem;
-    /* min-height: 60vh; */
+/* second part cards items  */
 
-}
-.main-section-items{
+
+.card-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 4rem;
     
 }
-.main-box-left{
-    background-color: rgb(255, 216, 222);
-    border-radius: 1rem;
-    width: 40%;
-    height: 35rem;
+
+.cards{
+    width: 50rem;
+    height: 30rem;
     display: flex;
-    padding: 4rem 4rem;
-    /* align-items: center; */
-    justify-content: space-evenly;
-}
-.main-box-second{
-    background-color: rgb(255, 234, 238);
-        border-radius: 1rem;
-        width: 40%;
-        height: 35rem;
-        display: flex;
-            padding: 4rem 4rem;
-            justify-content: space-evenly;
-}
-.left-box-items p{
-font-size: 1.5rem;
 
-padding-top: .5rem;
-line-height: 2.4rem;
+    justify-content: space-between;
+    background-color: rgb(255, 223, 228);
+    border-radius: 1.2rem;
 }
-.left-box-items h1{
-    font-size: 3rem;
-}
-.btn{
-    margin-top: 2rem;
-}
-#item-btn{
-   border: 2px solid pink;
-   color: rgb(255, 112, 136);
-   border-radius: 2rem;
-   font-size: 2rem;
-   padding: 1rem 3rem;
-   
-}
-@media(max-width:758px){
-
-.left-box-items h1{
-    width: 100%;
-}
-.left-box-items p{
-    width: 100%;
+.second-card{
+    background-color: rgb(251, 237, 237);
 
 }
-
-
-    .main-section-items{
-        flex-direction: column;
-        align-items: center;
-    }
-    .main-box-left{
-        width: 80%;
-        margin-top: 2rem;
-        height: 40rem;
-    }
-    .main-box-second{
-        height: 40rem;
-        width: 80%;
-        margin-top: 2rem;
-    }
+.left-cards{
+    padding: 2rem;
+    margin-top: 1.5rem;
 }
-/* treatment packages  */
-.treatment-packages{
-    margin-top:1rem;
-    text-align: center;
-    min-height: 80vh;
+.left-cards h3{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-top: 1.5rem;
 }
-.heading-items{
-    display: flex;
-    justify-content: space-around;
-}
-.links-view a{
-    font-size: 3rem;
-}
-.treatment-packages h1{
-   font-size: 3.5rem; 
-}
-.container-line-one{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5rem;
-}
-.container-line-two{
-    display: flex;
-        justify-content: space-evenly;
-        margin-top: 5rem;
-}
-.main-cont{
-width: 50rem;
-border-radius: 1rem;
-display: flex;
-justify-content: space-evenly;
-height: 34rem;
-cursor: pointer;
-border: 1px solid rgb(193, 193, 193);
-}
-.btn-treat{
-    margin-top: 2rem;
-    display: flex;
-}
-.btn-treat a{
-    background-color: rgb(0, 34, 255);
-    padding: 1rem 2rem;
-    border-radius: .5rem;
-
-    color: white;
-    font-size: 1.5rem;
-}
-.left-item-treatment img{
-    width: 20rem;
-    height: 20rem;
-    margin-top: 5rem;
-}
-.dis-name {
-    margin-top: 2rem;
-}
-.dis-name p{
-    font-size: 2rem;
-}
-.location {
- margin-top: .5rem;
-}
-.location p{
-    font-size: 1.5rem;
-    text-align: left;
-}
-.duration,.doctor{
-
-    margin-top: 2rem;
-    text-align: left;
-    font-size: 1.5rem;
-}
-
-.duration span,.doctor{
-    text-align: left;
-}
-#doctor-index,#doctor-index-name{
-    margin-left: 2rem;
-}
-.hospital-name{
-    margin-top: 2rem;
-    text-align: left;
+.left-cards p{
     font-size: 1.6rem;
+
+    width: 100%;
+line-height: 2.5rem;
 }
-@media(max-width:758px){
-    html{
-        /* font-size: 50%; */
-    }
-    .container-line-one{
-        margin-top: 2rem;
-    }
-    .main-cont {
-        height: 40rem;
-        width: 90%;
-        margin-top: 2rem;
-    }
-    .heading-items{
-        flex-direction: column;
-        margin-top: 10rem;
-    }
-        .treatment-packages h1 {
-            font-size: 2.5rem;
-          
-        }
-    .container-line-one{
-        flex-direction: column;
-        margin-top: 2.5rem;
-        align-items: center;
-    }
-    .container-line-two{
-        flex-direction: column;
-        margin-top: .5rem;
-            align-items: center;
-    }
+.images img{
+    width: 13rem;
+    height: 12rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+}
+@media (max-width:758px){
+ .card-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.left-cards p{
+text-align: left;
+}  
+.cards{
+    width: 90%;
+    margin-top: 2rem
+
+ }
+}
+/* second part cards items end */
+/* treatments packages  */
+.treatment-packages{
+margin-top: 4rem;
+}
+.package{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+.item-package{
+    box-shadow: 5px 5px 5px 5px #dcdcdc;
+    border: 1px solid rgb(255, 255, 255);
+    width: 55rem;
+    border-radius: 1.5rem;
+   
+    height: 30rem;
+}
+.right-item-profile{
+    margin: 0;
+}
+.above-item{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left-item-img img{
+width: 25rem;
+height: 25rem;
+border-radius: 3.5rem;
+padding: 2rem;
+}
+.below-item-price{
+    border-top: 1px solid rgb(168, 168, 168);
+    margin:1rem 2rem;
+}
+.right-item-profile{
+    margin-top: 2rem;
+}
+.head-name-treatment h1{
+    font-size: 3rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+h6{
+    font-size: 1.7rem;
+}
+.btn-item{
+    margin-bottom: 4rem;
+}
+.btn-cnct{
+    padding: 1rem;
+    background-color: #0082e6;
+    border-radius: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+/* margin-bottom: -5rem; */
+}
+.btn-cnct:hover{color: rgb(255, 255, 255);}
+.para-item{
+    font-size: 1.3rem;
+}
+
+.heads-treatment {
+    font-size: 1.7rem;
+}
+
+.below-item-price p{
+    font-size: 1.5rem;
+    margin: 0.5rem 1rem;
+}
+.durations-main{
+    display: flex;
+    justify-content: space-between;
 
 }
+@media(max-width:758px){
+    .right-item-profile{
+        padding: 2rem;
+    }
+    .package{
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-item{
+        margin-bottom: 0;
+        margin: 0;
+    }
+    .durations-main{
+        justify-content: space-between;
+        width: 80%;
+    }
+    .item-package{
+        width: 95%;
+        height: 60rem;
+        margin-top: 2rem;
+    }
+    .above-item{
+        flex-direction: column;
+    }
+    .para-item{
+        text-align: center;
+    }
+    .hospital-name h6{
+        text-align: left;
+    }
+    .hospital-name p{
+        text-align: left;
+
+    }
+    .location .para-item{
+        text-align: left;
+    }
+    .below-item-price p{
+        text-align: left;
+    }
+    .heads-treatment{
+        margin-top: 2rem;
+        text-align: left;
+    }
+}
+/* treatments packages end */
 /* testimonials sections  */
 #testimonials{
     min-height: 80vh; 
@@ -819,10 +810,11 @@ height: 20rem;
     }
     .items{
         width: 85%;
+        background-color: #f1f1f1;
         margin-top: 2rem;
     }
     .items img{
-        width: 80%;
+        width: 100%;
         margin: auto;
         display: block;
         padding-top: 1rem;
@@ -837,106 +829,131 @@ height: 20rem;
 }
 /* hospital section end */
 /* doctors section  */
-#doctors{
-    margin-top: 4rem;
-min-height: 80vh;
-}
-.header-main{
+.line-one-doctor{
     display: flex;
-    justify-content: space-around;
+    margin-top: 5rem;
+    justify-content: space-evenly;
 }
-.links{
-    margin-top: 2rem;
-    text-align: center;
-}
-.links a{
-    font-size: 2.5rem;
-    text-align: center;
-    color: rgb(4, 0, 255);
-}
-.head-text h2{
-    margin-top: 2rem;
+.main-head-dc h2{
     font-size: 3.5rem;
-
     text-align: center;
-}
-.box-container-doc{
-    display: flex;
-    justify-content: space-around;
     margin-top: 5rem;
 }
-.border{
-
-    border: 1px solid rgb(204, 203, 203);
-}
-.real-doc{
-    width: 55rem;
-    height: 35rem;
-    border-radius: 1rem;
+.line-two-doctor{
     display: flex;
-    justify-content: space-evenly;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+}
+.item-doctor{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow:5px 5px 5px 5px #ebebeb;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+}
+.above-item-doctor{
+    display: flex;
+        justify-content: space-evenly;
+}
+.doctor-name h6{
+    font-size: 2rem;
+margin-top: 2rem;
+}
+.postion{
+    margin-top: 5rem;
+
+}
+.position p{
+    font-size: 1.4rem;
+}
+.location-hospital h6{
+    font-size: 1.9rem;
+
+}
+.exp h6{
+font-size: 1.9rem;
+}
+.exp p{
+    font-size: 1.4rem;
+}
+.surgeries h6{
+    font-size: 1.9rem;
     
 }
-.left-img img{
-    width: 20rem;
-    padding-top: 3rem;
-    height: 20rem;
-    padding-left: 2rem;
+.surgeries p{
+
+    font-size: 1.4rem;
 }
-.right-texts{
-    padding-top: 4rem;
+.left-item-doctor img{
+    width: 18rem;
+    height:18rem;
+    /* border: 1px solid red; */
 }
-.name p{
-    font-size: 2rem;
+.experiences-main{
+    display: flex;
+    justify-content: space-between;
 }
-.position{
-    font-size: 1.2rem;
-    padding-top: 2rem;
-}
-.profession {
-    font-size: 1.5rem;
-    padding-top: 2rem;
-}
-.experience {
-    margin-top: 2rem;
-}
-.experience #surgery{
-   padding-left: 2rem;
-}
-.experience span,.numbers span{
-    font-size: 1.5rem;
-}
-.numbers #count{
-    padding-left: 2rem;
+.below-item-price p{
+font-size: 1.9rem;
 }
 @media(max-width:758px){
-    .border {
-            margin-top: 3rem;
-        }
-    .header-main {
-            flex-direction: column;
-            align-items: center;
-        }
-      
-    html{
-      
-    }
-    .box-container-doc{
+    .line-one-doctor{
         flex-direction: column;
         align-items: center;
-       margin-top: 0;
-        justify-content: center;
+        margin: 0;
     }
-    .real-doc{
-   width: 85%;
-   height: 50rem;
-   flex-direction: column;
+    .line-two-doctor{
+        align-items: center;
+        margin: 0;
+        flex-direction: column;
     }
-}
-@media(max-width:400px){
-  html{
-    /* font-size: 50%; */
-  }  
+    
+    .item-doctor{
+        width: 80%;
+margin-top: 5rem;
+padding: 3.5rem;
+margin: 3rem;
+    }
+
+    h6{
+        text-align: center;
+    }
+    .para-item{
+        text-align: center;
+    }
+    .doctor-name h6{
+        text-align: left;
+    }
+    .location-hospital{
+        margin-top: 2rem;
+    }
+    .location-hospital h6 {
+        text-align: left;
+    }
+    .experiences-main{
+        margin-top: 2rem;
+    }
+    .right-item-doctor{
+      
+    }
+    .location-hospital p{
+        text-align: left;
+    }
+    .experiences-main{
+        width: 80%;
+    }
+    .below-item-price p{
+        text-align: left;
+    }
+    .position p{
+        text-align: left;
+    }
+    .item-doctor{
+        height: 54rem;
+    }
+    .above-item-doctor{
+        flex-direction: column;
+    }
 }
 /* doctors section end */
 /* award section  */
