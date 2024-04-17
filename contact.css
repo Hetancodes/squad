@@ -81,8 +81,7 @@ label.logo {
 label.logo a {
     color: rgb(8, 8, 8);
 font-size: 3rem;
-position: relative;
-bottom: 3.5rem;
+position: absolute;
 }
 
 nav ul {
@@ -232,7 +231,7 @@ label.logo a {
     }
 }
 #Contact-us {
-     background-image: url('../img/doctors.jpg');
+     background-image: url('/img/doctors.jpg');
      background-position: center;
      background-size: cover;
      /* width: 100%; */
