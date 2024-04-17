@@ -58,21 +58,24 @@ label img{
     border-radius: 7rem;
 }
 label img {
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 7rem;
 }
 label.logo {
-    color: rgb(8, 8, 8);
-    font-size: 3.5rem;
+    font-size: 3rem;
+    padding-left: 5rem;
     line-height: 80px;
-    padding: 0 100px;
+    
     font-weight: bold;
 }
+label.logo a{
+    color: rgb(8, 8, 8);
 
+}
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 nav ul li {
@@ -458,7 +461,7 @@ box-shadow: 5px 5px 10px 5px hsl(0, 0%, 90%);
 .info-profile p{
     /* width: 80rem; */
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
     text-justify: distribute;
 }
@@ -693,7 +696,7 @@ h6{
     padding-left: 8rem;
     padding-top: 8rem;
     padding-bottom: 4rem;
-    font-size: 4.4rem;
+    font-size: 4rem;
     width: 90%;
     /* font-family: Arial, Helvetica, sans-serif; */
    
@@ -740,7 +743,7 @@ padding-top: .5rem;
         height: 205vh;
     }
     .left-items-text h1{
- width: 100%;       
+ 
         padding-top: 0rem;
         text-align: center;
     }
@@ -1004,33 +1007,33 @@ margin: 3rem;
 }
 /* award section end */
 /* footer section start  */
-#footer{
-    min-height: 60vh;
-    width: 100%;
+/* footer  */
+#footer {
     background-color: #e1f5ff;
-    margin-top: 5rem;
 }
-.items-section {
+
+.main-footer {
     display: flex;
-    justify-content: space-around;
-    padding-top: 4rem;
+    justify-content: space-evenly;
 }
-  .inside-ul{
-    font-size: 2rem;
-    font-weight: bolder;
-}
-.head-ul ul{
+.footer-items{
     padding: 2rem;
 }
-.items-section .head-ul li{
-    font-size: 1.5rem;
-    padding-top: 1rem;
+.para{
+    margin-top: 1.5rem;
+}
+.footer-items h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.para p{
+    font-size: 1.3rem;
+    padding: .4rem;
 }
 @media(max-width:758px){
- .items-section{
-    flex-direction: column;
-
- }   
-
+    .main-footer{
+        flex-direction: column;
+        align-items: center;
+    }
 }
-/* footer section end */
+/* footer end */
